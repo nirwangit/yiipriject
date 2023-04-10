@@ -44,7 +44,7 @@ class DatasetSearch extends Dataset
         $currentDate = gmdate('Y-m-d ');
         $currentTime = gmdate('H:i:s');
         $weekDays = date('w',strtotime($currentDate));
-        $weekDays = ($weekDays==7) ?  6 : $weekDays-1;
+        $weekDays = ($weekDays==0) ? 6 : $weekDays-1;
         //die;
         $query = "
         select * from (
@@ -91,8 +91,9 @@ class DatasetSearch extends Dataset
                 //echo date();die;
         $currentDate = gmdate('Y-m-d H:i:s');
         $currentTime = gmdate('H:i:s');
-         $weekDays = date('w',strtotime($currentDate));
-        $weekDays = ($weekDays==7) ? 6 : $weekDays-1;
+        $weekDays = date('w',strtotime($currentDate));
+        $weekDays = ($weekDays==0) ? 6 : $weekDays-1;
+        //die;
         $query = "
         select * from (
         select * ,
