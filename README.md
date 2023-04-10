@@ -6,7 +6,10 @@
     <br>
 </p>
 
-
+Build a db of name yii
+-------------------
+and import dataset.sql file 
+-------------------
 
 
 First Task
