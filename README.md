@@ -16,7 +16,7 @@ I want to see which coaches I can schedule with.
 
 url : http://localhost/<projectFolderName>/advanced/frontend/web/index.php?r=chek-avalibality/index
 
-<a href="https://photos.google.com/search/_tra_/photo/AF1QipMynwGvS8Z2j5kb-Tk1h_0CTNxyMb0t1J3YahHB" target="_blank">
+<a href="https://photos.app.goo.gl/4t6XHdsUYEhxh6kb9" target="_blank">
         <img src="image-1.png" height="100px">
     </a>
 ```
